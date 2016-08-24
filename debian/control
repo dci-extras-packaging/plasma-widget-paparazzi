@@ -1,0 +1,13 @@
+Source: plasma-widget-paparazzi
+Section: unknown
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>=9), extra-cmake-modules, qtdeclarative5-dev, qtbase5-dev, plasma-framework-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/plasma-extensions/plasma-widget-paparazzi
+
+Package: plasma-widget-paparazzi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: paparazzi plasma 5 widget
+ This package contains the files for plasma-widget-paparazzi
